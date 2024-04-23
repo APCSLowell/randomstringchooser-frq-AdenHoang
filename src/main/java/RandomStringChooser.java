@@ -3,6 +3,7 @@ public class RandomStringChooser
 {
 private ArrayList<String> aden;
   public RandomStringChooser(String[] wordArray){
+    aden=new ArrayList<String>();
    for (int i =0; i<wordArray.length;i++){
      aden.add(wordArray[i]);
    }
